@@ -1,0 +1,12 @@
+.LogoImg{
+    width: 128px;
+    height: 87px;
+    
+}
+@media (max-width:650px){
+    .LogoImg{
+        width: 100px;
+        height: 74px;
+        
+    }
+}

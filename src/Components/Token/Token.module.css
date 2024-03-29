@@ -1,0 +1,257 @@
+.tokenMain{
+    background:radial-gradient(181.84% 50.97% at 138.44% 49.09%, rgba(228, 172, 26, 0.2) 0%, rgba(228, 172, 26, 0) 100%);
+}
+.tokenContainer{
+    display: flex;
+    justify-content: space-around;
+padding-top: 60px;
+padding-bottom: 50px;
+    width: 92%;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tokenHEadingmain{
+    font-family: Praetorium BB;
+font-size: 181.3px;
+font-weight: 400;
+line-height: 217.57px;
+text-align: center;
+color:  #FFFFFF;
+
+}
+.tokenButtonMain{
+    margin-top: 90px;
+    width: 694px;
+height: 67px;
+border-radius: 25px;
+background: rgba(242, 242, 242, 0.22);
+
+}
+.tokenBtn{
+    width: 374px;
+height: 67px;
+border-radius: 25px;
+background: rgba(228, 173, 26, 1);
+
+}
+.tokenText{
+    padding-top: 40px;
+    font-family: Praetorium BB;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+.tokenRightHeading{
+    padding-top: 150px;
+    padding-bottom: 63px;
+    font-family: Praetorium BB;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: rgba(228, 172, 26, 1);
+
+}
+.nameText{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(255, 193, 7, 1);
+
+}
+.nameText span{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(236, 255, 225, 1);
+
+
+}
+.nameText2{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(255, 7, 7, 1);
+
+}
+.nameText2 span{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(236, 255, 225, 1);
+
+}
+.nameText3{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(7, 195, 255, 1);
+
+}
+.nameText3 span{
+    font-family: Praetorium BB;
+font-size: 30.81px;
+font-weight: 400;
+line-height: 20.54px;
+text-align: left;
+color: rgba(236, 255, 225, 1);
+
+}
+.nameTextLine{
+    margin-top: 15px;
+    margin-bottom:15px;
+    width: 557.07px;
+height: 3.85px;
+background: rgba(236, 255, 225, 1);
+opacity: 0.25px;
+
+}
+
+@media (max-width:1360px){
+    .tokenContainer{
+        width: 96%;
+    
+    }
+}
+@media (max-width:1300px){
+    .tokenHEadingmain {
+        font-size: 140px;
+        font-weight: 400;
+        line-height: 200.57px;
+    }
+    .tokenButtonMain{
+        margin-top: 80px;
+        width: 100%;
+    }
+    .tokenRightHeading{
+        padding-top: 130px;
+    
+    }
+    
+}
+@media (max-width:1140px){
+    .tokenHEadingmain {
+        font-size: 120px;
+        font-weight: 400;
+        line-height: 200.57px;
+    }
+    .tokenBtn {
+        width: 56%;
+    }
+    .tokenText{
+        padding-top: 40px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .tokenRightHeading{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .nameText span {
+        font-size: 26px;
+    }
+    .nameText {
+        font-size: 26px;
+    }
+    .nameText2 {
+        font-size: 26px;
+    }
+    .nameText2 span {
+        font-size: 26px;
+    }
+    .nameText3 span {
+        font-size: 26px;
+    }
+    .nameText3 {
+        font-size: 26px;
+    }
+    .nameTextLine {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+@media (max-width:992px){
+    .tokenContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 96%;
+        gap: 10px;
+     
+    }
+    .tokenRightSideMain{
+        width: 90%;
+
+    }
+    .tokenLeftSideMain{
+        width: 90%;
+
+    }
+    .tokenButtonMain {
+        margin-top: 30px;
+    }
+    .tokenRightHeading{
+        padding-top: 60px;
+    }
+}
+@media (max-width:650px){
+    .tokenHEadingmain {
+        font-size: 80px;
+        line-height: 120px;
+    }
+    .tokenButtonMain{
+        height: 50px;
+    }
+    .tokenBtn {
+        height: 50px;
+
+    }
+    .tokenRightHeading{
+            font-size: 20px;
+            line-height: 20px;
+        text-align: center;
+    }
+    .nameText span {
+        font-size: 22px;
+    }
+    .nameText  {
+        font-size: 22px;
+    }
+    .nameText2 span {
+        font-size: 22px;
+    }
+    .nameText2  {
+        font-size: 22px;
+    }
+    .nameText3 span {
+        font-size: 22px;
+    }
+    .nameText3  {
+        font-size: 22px;
+    }
+}
+@media (max-width:375px){
+    .tokenHEadingmain {
+        font-size: 70px;
+        line-height: 120px;
+    }
+}

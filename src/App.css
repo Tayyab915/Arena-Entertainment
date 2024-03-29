@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Praetorium BB';
+  src: url('../src/font/PRAEBRG_.TTF'),
+}
+body {
+  background: linear-gradient(0deg, #050505, #050505),
+radial-gradient(181.84% 50.97% at 138.44% 49.09%, rgba(228, 172, 26, 0.2) 0%, rgba(228, 172, 26, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}

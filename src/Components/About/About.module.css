@@ -1,0 +1,224 @@
+.aboutMain{
+    background:radial-gradient(181.84% 50.97% at 138.44% 49.09%, rgba(228, 172, 26, 0.2) 0%, rgba(228, 172, 26, 0) 100%);
+    
+}
+
+
+/* Slider css  */
+.sliderMain{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    gap: 60px;
+
+}
+.sliderdivMain{
+    display: flex;
+    gap: 20px;
+}
+.dotText{
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47.42px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.sliderIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.iconText{
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47.42px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+.aboutContainer{
+    display: flex;
+    justify-content: space-around;
+padding-top: 60px;
+padding-bottom: 30px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1HeadingMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 297px;
+    height: 425px;
+    border: 5px solid rgba(228, 172, 26, 1)
+}
+.section1Heading{
+    width: 226px;
+    font-family: Praetorium BB;
+font-size: 88.51px;
+font-weight: 400;
+line-height: 106.21px;
+text-align: left;
+color: rgba(228, 172, 26, 1);
+
+}
+.aboutSection2Text{
+    width: 322px;
+    font-family: Praetorium BB;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: rgba(236, 255, 225, 1);
+
+}
+.section3Heading{
+    font-family: Praetorium BB;
+font-size: 125.41px;
+font-weight: 400;
+line-height: 125.41px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+.abtImg{
+    margin-top: -100px;
+    width: 569.76px;
+height: 455px;
+
+}
+
+@media (max-width:1300px){
+    .aboutContainer{
+        justify-content: space-between;
+        width: 98%;
+        gap: 20px;
+    }
+    .abtImg {
+        width: 520px;
+        height: 420px;
+    }
+}
+@media (max-width:1200px){
+    .section1Heading {
+        width: 226px;
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .section1HeadingMain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 255px;
+        height: 400px;
+    }
+    .aboutSection2Text {
+        width: 100%;
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .section3Heading {
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 110px;
+    }
+    .abtImg{
+        width: 490px;
+        height: 390px;
+    }
+}
+@media (max-width:992px){
+    .aboutContainer{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        gap: 20px;
+    }
+    .section1Heading {
+        width: 226px;
+        font-size: 70px;
+        line-height: 90px;
+        text-align: center;
+    }
+    .section1HeadingMain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        height: 360px;
+    }
+    .aboutSection1Main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .aboutSection3Main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:650px) {
+    .iconText{
+        font-size: 28px;
+    }
+    .dotText{
+        font-size: 28px;
+    
+    }
+    .section1Heading {
+        width: 160px;
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .section1HeadingMain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        height: 280px;
+    }
+    .aboutContainer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .aboutSection2Text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .section3Heading {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 90px;
+    }
+    .abtImg {
+    margin-top: -76px;
+
+        width: 390px;
+        height: 290px;
+    }
+}
+
+@media (max-width:425px){
+    .abtImg {
+        margin-top: -76px;
+    
+            width: 310px;
+            height: 250px;
+        }
+}
